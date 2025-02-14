@@ -6,13 +6,22 @@ This guide is intended exclusively for lawful research, debugging, and developme
 ---
 
 ## Table of Contents
-1. [Required Tools](#required-tools)  
-2. [Step 1: Configuring Android Studio](#step-1-configuring-android-studio)  
-3. [Step 2: Rooting the Emulator](#step-2-rooting-the-emulator)  
-4. [Step 3: Configuring Charles Proxy](#step-3-configuring-charles-proxy)  
-5. [Step 4: Trusting User Certificate](#step-4-trusting-user-certificate)  
-6. [Step 5: Decrypted HTTPS Traffic](#step-5-decrypted-https-traffic)  
-7. [Extra: SSL Unpinning](#extra-ssl-unpinning) 
+1. [Definitions](#definitions)
+2. [Required Tools](#required-tools)
+3. [Step 1: Configuring Android Studio](#step-1-configuring-android-studio)  
+4. [Step 2: Rooting the Emulator](#step-2-rooting-the-emulator)  
+5. [Step 3: Configuring Charles Proxy](#step-3-configuring-charles-proxy)  
+6. [Step 4: Trusting User Certificate](#step-4-trusting-user-certificate)  
+7. [Step 5: Decrypted HTTPS Traffic](#step-5-decrypted-https-traffic)  
+8. [Extra: SSL Unpinning](#extra-ssl-unpinning) 
+
+---
+
+## Definitions
+- **Root:** The process or state of gaining administrative (superuser) privileges on an Android device. Root access allows users to modify system files and settings that are otherwise restricted.
+- **Magisk:** A widely used systemless rooting tool for Android devices. It allows modifications without altering the system partition and supports modules (like MagiskTrustUserCerts) for additional functionalities.
+- **Certificate Authority Certificates:** Digital certificates issued by trusted certificate authorities to verify the legitimacy of SSL/TLS certificates, establishing trust for secure communications.
+- **Certificate Unpinning:** The practice of bypassing certificate pinning, which is a security measure used by apps to accept only specific certificates. Unpinning involves modifying the application or its environment to accept other certificates, enabling interception of HTTPS traffic.
 
 ---
 
