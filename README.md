@@ -20,8 +20,11 @@ This guide is intended exclusively for lawful research, debugging, and developme
 ## Definitions
 - **Root:** The process or state of gaining administrative (superuser) privileges on an Android device. Root access allows users to modify system files and settings that are otherwise restricted.
 - **Magisk:** A widely used systemless rooting tool for Android devices. It allows modifications without altering the system partition and supports modules (like MagiskTrustUserCerts) for additional functionalities.
-- **Certificate Authority Certificates:** Digital certificates issued by trusted certificate authorities to verify the legitimacy of SSL/TLS certificates, establishing trust for secure communications.
+- **CA Certificates:** Digital certificates issued by trusted certificate authorities to verify the legitimacy of SSL/TLS certificates, establishing trust for secure communications.
 - **Certificate Unpinning:** The practice of bypassing certificate pinning, which is a security measure used by apps to accept only specific certificates. Unpinning involves modifying the application or its environment to accept other certificates, enabling interception of HTTPS traffic.
+- **Xposed**: A framework for Android that allows modules to modify the behavior of the system and apps at runtime without altering APKs or firmware. It is commonly used to bypass security mechanisms such as certificate pinning.
+- **Charles Proxy**: A web debugging proxy application that captures HTTP and HTTPS traffic between a device and the internet. It is widely used for analyzing, modifying, and troubleshooting network communications during app development.
+
 
 ---
 
