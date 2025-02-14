@@ -1,4 +1,4 @@
-# Mobile App HTTPS Traffic Decryption via SSL/TLS Interception, Certificate Pinning Bypass, and System CA Injection
+# Debug Android HTTPS Traffic via SSL/TLS Interception, Certificate Pinning Bypass, and System CA Injection
 
 ## Disclaimer
 This guide is intended exclusively for lawful research, debugging, and development activities. The techniques described here must only be applied to applications owned by the user or those with explicit, documented permission for testing. All information is to be used strictly in non-production environments. Misuse of the material may breach laws or regulations, for which the user assumes full responsibility. The author disclaims liability for unauthorized or unethical application of these methods.
